@@ -1,0 +1,24 @@
+Line# 24: Redefinition of parameter 'a'
+Line# 29: Conflicting types for 'foo3'
+Line# 34: 'z' redeclared as different kind of symbol
+Line# 39: Conflicting types for 'var'
+Line# 51: Variable or field 'e' declared void
+Line# 52: Conflicting types for'a'
+Line# 52: Conflicting types for'c'
+Line# 54: Type mismatch for argument 1 of 'func'
+Line# 54: Type mismatch for argument 2 of 'func'
+Line# 56: Type mismatch for argument 2 of 'correct_foo'
+Line# 57: Too few arguments to function 'correct_foo'
+Line# 58: Too many arguments to function 'correct_foo'
+Line# 60: Undeclared variable 'k'
+Line# 61: 'b' is not an array
+Line# 62: Array subscript is not an integer
+Line# 63: Void cannot be used in expression
+Line# 66: Void cannot be used in expression
+Line# 67: Warning: possible loss of data in assignment of FLOAT to INT
+Line# 68: Warning: division by zero
+Line# 69: Operands of modulus must be integers
+Line# 70: Warning: possible loss of data in assignment of FLOAT to INT
+Line# 72: Undeclared function 'foo5'
+Line# 74: Undeclared variable 'h'
+Line# 74: Undeclared function 'printf'
