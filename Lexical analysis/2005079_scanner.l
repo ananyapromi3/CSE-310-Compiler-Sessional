@@ -397,7 +397,7 @@ int main(int argc, char *argv[]) {
 	}
 	logout.open("2005079_log.txt");
 	tokenout.open("2005079_token.txt");
-    symbolTable = new SymbolTable(new ScopeTable(BUCKET_SIZE, NULL));
+        symbolTable = new SymbolTable(new ScopeTable(BUCKET_SIZE, NULL));
 	yyin = fin;
 	yylex();
 	fclose(yyin);
