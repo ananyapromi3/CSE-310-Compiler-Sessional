@@ -1137,7 +1137,7 @@ int main(int argc, char *argv[]) {
 	logout.open("logout.txt");
 	errorout.open("error.txt");
 	parseout.open("parsetree.txt");
-    symbolTable = new SymbolTable(new ScopeTable(BUCKET_SIZE, NULL));
+        symbolTable = new SymbolTable(new ScopeTable(BUCKET_SIZE, NULL));
 	yyin = fin;
 	yyparse();
 	fclose(yyin);
